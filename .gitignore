@@ -1,0 +1,11 @@
+*.pyc
+__pycache__
+.dart_tool/
+.packages
+.pub-cache/
+build/
+android/.gradle/
+*.json
+.idea/
+.vscode/
+.DS_Store
