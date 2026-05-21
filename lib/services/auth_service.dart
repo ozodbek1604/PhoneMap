@@ -9,7 +9,6 @@ class AuthService extends ChangeNotifier {
   bool get isLoading => _isLoading;
   bool get isLoggedIn => _user != null;
 
-
   AuthService() { _checkCurrentUser(); }
 
   void _checkCurrentUser() {
